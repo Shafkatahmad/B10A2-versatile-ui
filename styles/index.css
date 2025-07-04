@@ -159,7 +159,6 @@ header {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-content: space-around;
-  border: 2px solid red;
 }
 .change-habit-imgs img {
   border-radius: 50%;
@@ -180,7 +179,6 @@ header {
 }
 .extra-mile-txt {
   max-width: 450px;
-  border: 2px solid red;
 }
 .extra-mile-txt h3 {
   margin-bottom: 1rem;
@@ -194,6 +192,98 @@ header {
 .extra-mile-img img {
   width: 100%;
   border-radius: 18px;
+}
+/* our-team styles */
+.our-team-container {
+  max-width: 1100px;
+  margin: 100px auto;
+  color: white;
+}
+.our-team-container-top {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.our-team-container-top p {
+  margin-top: 1rem;
+}
+.our-team-imgs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: space-around;
+  align-items: center;
+  background-color: rgba(34, 34, 34, 1);
+  padding: 20px;
+  border-radius: 18px;
+}
+.our-team-img1 {
+  background-image: url(../images/trainer1.png);
+  width: 100%;
+  height: 270px;
+  background-size: cover;
+  filter: brightness(70%);
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.our-team-img2 {
+  background-image: url(../images/trainer2.png);
+  width: 100%;
+  height: 270px;
+  background-size: cover;
+  filter: brightness(70%);
+  border-radius: 18px;
+  flex-direction: column;
+  justify-content: end;
+}
+.our-team-img3 {
+  background-image: url(../images/trainer3.png);
+  width: 100%;
+  height: 270px;
+  background-size: cover;
+  filter: brightness(70%);
+  border-radius: 18px;
+  flex-direction: column;
+  justify-content: end;
+}
+.our-team-img4 {
+  background-image: url(../images/trainer4.png);
+  width: 100%;
+  height: 270px;
+  background-size: cover;
+  filter: brightness(70%);
+  border-radius: 18px;
+  flex-direction: column;
+  justify-content: end;
+}
+.our-team-img5 {
+  background-image: url(../images/trainer5.png);
+  width: 100%;
+  height: 270px;
+  background-size: cover;
+  filter: brightness(70%);
+  border-radius: 18px;
+  flex-direction: column;
+  justify-content: end;
+}
+.our-team-img6 {
+  background-image: url(../images/trainer6.png);
+  width: 100%;
+  height: 270px;
+  background-size: cover;
+  filter: brightness(70%);
+  border-radius: 18px;
+  flex-direction: column;
+  justify-content: end;
+}
+.our-team-img-details {
+  margin: 20px;
+}
+.our-team-img-title {
+  font-size: 1.25rem;
 }
 /* resopnsive design */
 @media screen and (max-width: 576px) {
@@ -237,7 +327,7 @@ header {
   .change-habit-txt h3 {
     font-size: 2rem;
   }
-  .change-habit-imgs {
+  .change-habit-imgs, .our-team-imgs {
     grid-template-columns: 1fr;
     gap: 40px;
     justify-items: center;
