@@ -285,6 +285,51 @@ header {
 .our-team-img-title {
   font-size: 1.25rem;
 }
+/* footer styles */
+.footer-container {
+  color: white;
+  background-color: rgba(34, 34, 34, 1);
+  border: 2px solid black;
+}
+.footer-top {
+  max-width: 1100px;
+  margin: 65px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  gap: 150px;
+}
+.footer-top-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.footer-top-description {
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.footer-top-left {
+  max-width: 445px;
+}
+.footer-top-middle {
+  max-width: 180px;
+}
+.footer-top-right {
+  max-width: 180px;
+}
+.footer-bottom {
+  max-width: 1100px;
+  margin: 36px auto;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.footer-bottom > hr {
+  color: rgba(34, 34, 34, 1);
+}
+.footer-bottom-description {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
 /* resopnsive design */
 @media screen and (max-width: 576px) {
   .change-habit {
@@ -339,5 +384,13 @@ header {
   }
   .extra-mile-btn {
     width: 100%;
+  }
+  /* footer */
+  .footer-container {
+    padding: 20px;
+  }
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 30px;
   }
 }
