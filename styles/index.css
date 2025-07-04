@@ -167,6 +167,33 @@ header {
 .change-habit-img {
   max-width: 230px;
 }
+/* run an extra mile styles */
+.extra-mile-container {
+  max-width: 1100px;
+  border-radius: 18px;
+  background-color: rgba(34, 34, 34, 1);
+  margin: 100px auto;
+  padding: 30px;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.extra-mile-txt {
+  max-width: 450px;
+}
+.extra-mile-txt h3 {
+  margin-bottom: 1rem;
+}
+.extra-mile-txt p {
+  margin-bottom: 2rem;
+}
+.extra-mile-img {
+  max-width: 365px;
+}
+.extra-mile-img img {
+  width: 100%;
+  border-radius: 18px;
+}
 @media screen and (max-width: 576px) {
   .change-habit {
     padding: 20px;
